@@ -2,5 +2,5 @@
 #object or not?
 
 list1 = ["man","ran","come"]
-list2 = ["man"]
-print(list1 is list2)
+list2 = ["man","ran","come"]
+print(list1 is list2)   #output is false coz is operator compares with memory location of both objects

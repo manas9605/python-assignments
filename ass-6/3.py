@@ -5,3 +5,6 @@ if a%2==0:
     print("even")
 else:
     print("odd")
+
+#songle line
+print("odd" if int(input("enter a no : "))%2 else "even")

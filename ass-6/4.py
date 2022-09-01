@@ -2,7 +2,12 @@
 #even if the numbers are the same.
 a = int(input("enter a no :"))
 b = int(input("enter other no :"))
-if a>0:
-    print("%d is grater then %d"%a%b)
+if a>b:
+    print("%d is grater"%a)
 else:
-    print("%d is grater then %d"%b%a)
+    print(a)
+
+#other method
+print("enter two no :")
+c,d=int(input()),int(input())
+print(c if c>d else d)

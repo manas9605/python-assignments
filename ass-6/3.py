@@ -7,4 +7,4 @@ else:
     print("odd")
 
 #songle line
-print("odd" if int(input("enter a no : "))%2 else "even")
+print("odd" if int(input("enter a no : "))%2==0 else "even")

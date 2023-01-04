@@ -9,4 +9,4 @@ print("updated no is : ",a[:-1])
 
 print("enter a no :")
 a = eval(input())
-print("updated no is : ",int(a/10))
+print("updated no is : ",int(a//10))

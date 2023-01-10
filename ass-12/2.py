@@ -1,0 +1,1 @@
+'''Write a python script to check whether a given number is Prime or not'''

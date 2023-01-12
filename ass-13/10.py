@@ -1,5 +1,8 @@
 '''Write a Python script to create a list, where each element of the list is a digit of a
 given number'''
-print("enter digits of a no separating comma : ")
-l1=[eval(i) for i in input().join(',')]
-print("the final given no is : ",l1)
+print("enter a no :")
+a=input()
+list_1=[]
+for i in str(a):
+    list_1.append(i)
+print("final list is ",list_1)
